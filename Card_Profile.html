@@ -1,0 +1,122 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        .body{
+            margin: 0px;
+            padding: 0px;
+            background: #f1f1f1;
+            font-family:monocraft;
+        }
+
+        .card-container{
+            width: 300px;
+            height: 430px;
+            background: #fff;
+            border-radius: 6px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 0px 1px 10px 1px #000;
+            overflow: hidden;
+            display: inline-block;
+        }
+
+        .upper-container{
+            height: 150px;
+            background-image: url(Berk\ Latar.jpeg);
+            position: relative;
+        }
+
+        .lower-container{
+            height: 280px;
+            background: #fff;
+            padding: 20px;
+            padding-top: 40px;
+            text-align: center;
+        }
+
+        .h3,.h4{
+            box-sizing: border-box;
+            line-height: .6;
+            font-weight: lighter;
+            
+        }
+
+        .h4{
+            color: #7f00ff;
+            opacity: .6;
+            font-weight: bold;
+        }
+
+        .p{
+            color: gray;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+
+        .image-container{
+            background: white;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            padding: 5px;
+            position: absolute;
+            left: 50%;
+            bottom: -40px;
+            transform: translateX(-50%);
+        }
+
+        .img{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: block;
+        }
+
+        .btn{
+            padding: 12px 20px;
+            background: #7f00ff;
+            border: none;
+            color: white;
+            border-radius: 30px;
+            font-size: 12px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all .3s ease-in;
+        }
+
+        .btn:hover{
+            background: transparent;
+            color: #7f00ff;
+            border: 2px solid #7f00ff;
+        }
+    </style>
+</head>
+<body class="body">
+    <div class="card-container">
+
+        <div class="upper-container">
+        <div class="image-container">
+            <img src="Astrid P4.jpeg" class="img">
+        </div>
+        </div>
+
+        <div class="lower-container">
+            <div>
+                <h3 class="h3">Astrid Hofferson</h3>
+                <h4 class="h4">Viking</h4>
+            </div>
+            <div>
+                <p class="p">dikenal sebagai prajurit Viking yang tangguh, terampil, dan bertekad dari suku Hairy Hooligan di Pulau Berk.</p>
+            </div>
+            <div>
+                <a href="#" class="btn">View profile</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
